@@ -1,0 +1,123 @@
+body {
+  background-color: #FCFCFC;
+  background-color: hsl(0, 0%, 95%);
+  margin: 0;
+}
+
+h2 {
+  color: #FCFCFC;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  padding-left: 25px;
+}
+
+img {
+  padding-left: 30px;
+  padding-top: 40px;
+}
+
+p {
+  color: #FCFCFC;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align: left;
+  padding: 0 40px 10px 25px;
+}
+
+.boxes {
+  background-color: #FCFCFC;
+  background-color: hsl(0, 0%, 95%);
+  margin: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-container {
+  height: 400px;
+  width: 250px;
+  background-color: #EEB77C;
+  background-color: hsl(31, 77%, 52%);
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.middle-container {
+  height: 400px;
+  width: 250px;
+  background-color: #006970;
+  background-color: hsl(184, 100%, 22%);
+  position: relative;
+  top: 0;
+}
+
+.right-container {
+  height: 400px;
+  width: 250px;
+  background-color: #004241;
+  background-color: hsl(179, 100%, 13%);
+  position: relative;
+  right: 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.attribution {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+
+.btn {
+  background-color: #FCFCFC;
+  border-radius: 28px;
+  border: 2px solid #FCFCFC;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  padding: 8px 18px;
+  text-decoration: none;
+  margin: 40px 10px 0 25px;
+}
+
+.sedans-btn {
+  color: #EEB77C;
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn {
+  color: #006970;
+}
+
+.luxury-btn {
+  color: #004241;
+}
+
+.sedans-btn:hover {
+  background-color: #EEB77C;
+  background-color: hsl(31, 77%, 52%);
+  color: #FCFCFC;
+}
+
+.suvs-btn:hover {
+  background-color: #006970;
+  background-color: hsl(184, 100%, 22%);
+  color: #FCFCFC;
+}
+
+.luxury-btn:hover {
+  background-color: #004241;
+  background-color: hsl(179, 100%, 13%);
+  color: #FCFCFC;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
